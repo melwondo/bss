@@ -1,5 +1,21 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color:#212121;
+}
+
+nav {
+    background-color: #333333;
+    font-family: "Roboto", sans-serif;
+    color: rgb(211, 211, 211);
+    
+    .navbar-toggler-icon{
+        color: palegreen;
+    }
+    a{
+        color:rgb(211, 211, 211);
+        &:hover {
+            color:rgb(211, 211, 211);
+        }
+    }
 }
