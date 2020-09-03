@@ -3,5 +3,32 @@
 {% block title %}Buy some skills !{% endblock %}
 
 {% block body %}
-    <img src="https://comindesign.fr/wp-content/uploads/2018/08/website-design-slider-background-stockton.jpg" class="img-fluid" alt="b">
+<div class="hero">
+    <div class="hero-inner">
+        <div class="hero-title">
+            <h1>Find popular Skills to help you get the job you want</h1>
+            <div class="hero-text">
+                <p>Buy some skill let help you to find the right skill you need for your next interview</p>
+            </div>
+            <div class="hero-btn"><button type="button" class="btn btn-info">Find my skill</button></div>
+        </div>
+    </div>
+</div> 
+
+<div id="filter">
+    <div class="filter-headline">
+        <h3>Find my skill :</h3>
+    </div>
+    <div class="filter-wrapper">
+        <div class="filter-btn" id="filterSelect">
+            <button class="btn btn-outline-success mr-2" data-value="all">All</button>
+            <button class="btn btn-outline-success mr-2" data-value="xp">XP</button>
+            <button class="btn btn-outline-success mr-2" data-value="php">PHP</button>
+            <button class="btn btn-outline-success mr-2" data-value="symfony">Symfony</button>
+            <button class="btn btn-outline-success mr-2" data-value="soft-skills">Soft skills</button>
+        </div>
+    </div>
+</div>
+    
+
 {% endblock %}
