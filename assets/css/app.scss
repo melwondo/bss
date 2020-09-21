@@ -1,11 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color:#5c0808;
+    background-color:#212121;
 }
 
 nav {
-    background-color: #d41c1c;
+    background-color: #333333;
     font-family: "Roboto", sans-serif;
     box-shadow: 0 0 5px #45A29E;
     
@@ -86,5 +86,5 @@ nav {
 }
 
 .login-form {
-    color: white;
+    color: #66FCF1;
 }
