@@ -1,11 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color:#212121;
+    background-color:#5c0808;
 }
 
 nav {
-    background-color: #333333;
+    background-color: #d41c1c;
     font-family: "Roboto", sans-serif;
     box-shadow: 0 0 5px #45A29E;
     
@@ -16,6 +16,7 @@ nav {
         }
     }
 }
+
 #navbarNavAltMarkup {
     justify-content: flex-end;
 }
@@ -84,7 +85,6 @@ nav {
     }
 }
 
-
-
-
-
+.login-form {
+    color: white;
+}
